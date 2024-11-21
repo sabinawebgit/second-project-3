@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 100%;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    color: transparent;
+}
+.header-logo{
+    display: flex;
+    gap: 30px;
+}
+.card-1{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./img/bg.png);
+}
+.card-1-box{
+    width: 624px;
+    height: 369px;
+    position: relative;
+    top: 284px;
+    left: 776px;
+    clip-path: polygon(8% 0%, 100% 0%, 100% 85%, 92% 100%, 0% 100%, 0% 15%);
+}
+.card-1-box h1{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    transform: translateY(140px)
+}
+.card-1-button{
+    display: flex;
+    align-items: center;
+   padding-left: 20px;
+    width: 172px;
+    height: 40px;
+    background-color: black;
+    transform: translateY(150px);
+    margin-left: 150px;
+}
+.card-1 button{
+    background-color: transparent;
+    color: #F8F200;
+    border: none;
+}
+.card-2{  
+    display: flex;
+    margin-left: 200px;
+    flex-direction: column;
+    gap: 20px;
+}
+.card-2 p{
+    margin-top: 30px;
+    }
+
+.card-2-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 30px;
+}
+.card-3{
+    background-color: #F8F200;
+}
+.card-3-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.card-3-L{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    flex-direction: column;
+}
+.card-3-R p{
+    margin-top: 20px;
+}
+.card-3-R img{
+    transform: translateY(20px);
+}
+.card-3-R button{
+    width: Hug (194px)px;
+height: Fixed (59px)px;
+top: 3338px;
+left: 976px;
+padding: 15px 50px 15px 50px;
+gap: 10px;
+opacity: 0px;
+ transform: translateY(30px);
+ background-color: black;
+ color: #F8F200;
+ border: none;
+}
+.card-4{
+    background-color: black;
+    color: white;
+}
+.card-4-title {
+    margin-left: 50px;
+}
+.card-4-title h1{
+    font-family: Archangelsk;
+font-size: 40px;
+font-weight: 600;
+line-height: 63.3px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+    margin-left: 150px;
+    transform: translateY(-100px);
+}
+.card-4-title p{
+    transform: translateY(-50px);
+}
+.card-4-inpbtn{
+    margin-left: 50px;
+}
+.card-4-inpbtn input{
+    width: 460px;
+    height: 35px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-bottom: 1px solid#777777;
+    
+}
+.card-4-skrn input{
+    display: flex;
+     align-items: center;
+     justify-content: space-between;
+     background: #111;
+     padding: 20px;
+     border-radius: 10px;
+     margin-bottom: 20px;
+    width: 460px;
+     height: 120px;
+    border: 1px solid #777777;
+   margin-top: 20px;
+}
+.card-4-button button{
+    margin-top: 20px;
+    width: Hug (192px)px;
+    height: Fixed (59px)px;
+    top: 2573px;
+    left: 320px;
+    padding: 15px 50px 15px 50px;
+    gap: 10px;
+    opacity: 0px;
+    background-color: #F8F200;    
+}
+.card-4-p{
+    margin-top: 20px;
+}
+.card-4-img {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    transform: translateY(-350px);
+    margin-left: 300px;
+}
+.card-5{
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.card-5-R{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.card-5-text{
+    color: #52BEDC;
+    margin-top: 20px;
+}
+.card-5-trio img{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-5-trio {
+    display: flex;
+    align-items: center;
+    margin: 15px 0px ;
+}
+.card-5-trio img{
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
